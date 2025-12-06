@@ -15,7 +15,7 @@ public class Main extends JFrame {
         Window window = new Window("PrizmaOS", 1400, 900);
     }
 
-    public @interface version {
+    private @interface version {
         String value();
     }
 }
