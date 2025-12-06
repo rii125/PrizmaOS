@@ -1,6 +1,6 @@
 package window;
 
-public enum screenMode {
+public enum ScreenMode {
     IMPORT,
     LOAD,
     LOGIN,
