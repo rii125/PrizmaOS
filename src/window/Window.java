@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Window {
     JFrame window = new JFrame();
-    ScreenMode scMode = ScreenMode.MAIN;
+    ScreenMode scMode;
 
     public Window(String t, int w, int h) {
         window.setTitle(t);
